@@ -100,9 +100,13 @@ export default function App() {
                 <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-cyber-blue transition-all group-hover:w-full" />
               </a>
             ))}
-            <button className="px-5 py-2 glass rounded-full text-xs hover:border-cyber-blue transition-all">
-              Resume
-            </button>
+            <a
+  href="/Arpit-Sharma-Resume.pdf"
+  download
+  className="px-5 py-2 glass rounded-full text-xs hover:border-cyber-blue transition-all"
+>
+  Resume
+</a>
           </div>
 
           {/* Mobile Menu Toggle */}
