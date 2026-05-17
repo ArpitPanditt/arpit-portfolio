@@ -160,9 +160,14 @@ export default function App() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="px-8 py-4 bg-cyber-purple hover:bg-cyber-violet transition-colors rounded-xl font-bold text-sm flex items-center gap-2 shadow-[0_0_20px_rgba(157,0,255,0.3)]">
-                Connect on LinkedIn <Linkedin size={18} />
-              </button>
+              <a
+  href="https://www.linkedin.com/in/er-arpitsharma"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-4 bg-cyber-purple hover:bg-cyber-violet transition-colors rounded-xl font-bold text-sm flex items-center gap-2"
+>
+  Connect on LinkedIn <Linkedin size={18} />
+</a>
               <button className="px-8 py-4 glass hover:bg-white/10 transition-colors rounded-xl font-bold text-sm flex items-center gap-2">
                 View Infrastructure <Briefcase size={18} />
               </button>
